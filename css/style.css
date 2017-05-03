@@ -1,0 +1,498 @@
+*{ padding: 0px; margin: 0px;}
+
+@font-face { 
+    font-family: Verdana;src: url(Verdana.ttf);}
+
+.container{ 
+    width:1170px; margin:0 auto;}
+
+.headerWrapper{
+    min-height: 100px;}
+
+.logo{ 
+    margin-top: 20px;  cursor: pointer; display: inline-block;}
+
+.menu{ 
+    float:right; list-style: none; font-weight: bold;}
+
+.menu li { float:left; position: relative; margin-top: 45px;}
+
+.menu li a{ text-decoration: none;padding:0 12px;box-sizing:border-box; line-height: 40px; display: block;}
+
+/*Dropdown Menu*/
+.menu li li { 
+    float: none; display: block; margin-top:1px; background: rgba(223,38,85,0.7); margin-bottom: 1px;margin-top: 1px; }
+
+.menu li ul{
+    display: none; position:absolute; top:40px;left:0px;width:120px; z-index: 9999;}
+
+.menu li:hover ul{display:block}
+
+.menu li li a{
+    color:white; font-variant: small-caps; font-style:italic;}
+.menu li ul li:hover a{
+    margin-left: 8px; font-size: 17px; }
+/*Menubar*/
+.menu li a.home{
+     color:#F55; }
+.menu li a.about{
+    color: purple;} 
+.menu li a.courses{
+    color:green;}
+.menu li a.faq{
+    color:cornflowerblue;}
+.menu li a.signup{
+    color:orange;
+}
+.menu li a.login{
+    color:#eb3ee5;
+}
+.menu li a.contact{
+    color:#cd72d9;
+} 
+/* Active Menu */
+.menu li a.home.active{
+    background:#F55;
+    color:#fff;
+}
+.menu li a.about.active{ 
+    background: Purple;
+    color:#fff;
+}
+.menu li a.courses.active{ 
+    background: green;
+    color:#fff;
+}
+.menu li a.faq.active{
+    background:cornflowerblue;
+    color:#fff;
+}
+
+.menu li a.signup.active{ 
+    background: orange;
+    color:#fff;
+}
+.menu li a.login.active{
+    background:#eb3ee5; 
+    color:#fff;
+}
+.menu li a.contact.active{
+    background: #cd72d9;
+    color:#fff;
+}
+/*hover menu*/
+.menu li a.home:hover{
+    background-color:#F55;
+    color:white;
+    
+}
+.menu li a.about:hover{
+    background-color:purple;
+    color:#fff;
+    
+}
+.menu li a.courses:hover{
+    background-color:green;
+    color:white;
+    
+}
+.menu li a.faq:hover{
+    background-color:cornflowerblue;
+    color:white;
+    
+}
+.menu li a.signup:hover{
+    background-color:orange;
+    color:white;
+}
+.menu li a.login:hover{
+    background-color:#eb3ee5;
+    color:white;
+    
+}
+.menu li a.contact:hover{
+    background-color:#cd72d9;
+    color:white;
+    
+}
+.topic{
+    background-color: cornflowerblue;
+    width:100%;
+    height:120px;
+    margin-top:22px;
+    text-align: center;
+    color:white;
+    font-size:20px;
+    font-variant: small-caps;
+    padding-top:30px;
+}
+
+.slides{
+    overflow: hidden;
+    position: relative;
+    margin-top: 22px;
+    display:block;
+}
+.banner{
+    bottom: 36px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+.main_slider {
+  position: relative;
+}
+.banner h1{
+    color:white;
+    padding:12px;
+    background: rgba(236,57,88,0.8); 
+    width:320px;
+    margin:0 auto 8px;
+    text-align:center;
+}
+.banner h2{
+    color:white;
+    padding:12px;
+    width: 60%;
+    margin:0 auto 8px;
+    background: rgba(236,57,88,0.8); 
+}
+.theme{
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size: 10px;
+}
+/*Notice*/
+.notice{
+    overflow: hidden;
+    margin-bottom: 10px;
+    color:white;
+    text-align: center;
+}
+.notice ul li:hover a{
+    text-decoration: underline;
+}
+.same_notice{ float: left;
+    margin-left: 4%;
+    min-height: 320px;
+    padding-top: 25px;
+    width: 22%;
+}
+.notice1{
+    background-color: #F55;
+    margin-left:0%;
+}
+.notice1 li{
+    list-style: none;
+    padding:10px;
+}
+.notice2{
+    background-color: blueviolet;
+}
+.notice2 li{
+    list-style: none;
+    padding:15px;
+}
+.notice3{
+    background-color: #9ade30;
+}
+.notice3 a:hover{
+    text-decoration: underline;
+}
+.notice3 a{
+    text-decoration:none;
+    
+}
+.notice4{
+
+    background-color: #3094de;
+}
+.notice4 ul {
+    text-align: left;
+    padding-top:20px;
+    padding-left: 20px;
+}
+.notice4 ul li{
+    padding: 2px;
+}
+.notice ul li a{
+    text-decoration: none;
+    color: white;
+}
+.videos{
+    margin-top:20px;
+    margin-left:7%;
+    color:#3094de;
+    height:315px;  
+}
+.physics{
+    float:left;
+}
+.math{
+    float:left;
+    margin-left:2.5%;
+}
+.religion{
+    float:left;
+    margin-left:2.5%;
+}
+.link{
+    margin-left:7%;
+    margin-top:2px;
+    height:30px;
+}
+.link a{
+    text-decoration: none;
+}
+
+.learn ol{
+    list-style-type: number;
+    margin-bottom: 30px;
+}
+.learn li a{
+    text-decoration:none;
+}
+.signupst{
+    padding: 10px;
+    margin-left:15%;
+    line-height: 25px;   
+}
+.signupst a{
+    text-decoration:none;
+}
+.signupst a:hover{
+    text-decoration: underline;
+}
+.signupst label{
+    font-size: 25px;
+}
+.signupst input {
+	margin-top: 15px;
+	line-height: 25px;
+	font-size: 19px;
+	padding: 10px;
+	width: 48%;
+}
+.signupst input[type="radio"] {
+    margin-left:30px;
+     width: 25px;
+}
+.signupst input[type="checkbox"] {
+    margin-left:10px;
+    width:25px;
+}
+.signupst span {
+    font-size:19px;
+    margin-left:6px;
+}
+.check {
+	margin-left: 132px;
+	margin-top: 10px;
+}
+.footer{
+    overflow: hidden;
+    background-color:cornflowerblue;
+    width:100%;
+    min-height:300px;
+    margin-top:20px;
+}
+.footer1 li:hover a{
+    text-decoration: underline;
+    
+}
+.footer2 li:hover a{
+    text-decoration: underline;
+}
+.footer3 li:hover a{
+    text-decoration: underline;
+}
+.footer0{
+    width: 100%;
+    height: 200px;
+    margin-top:40px;
+    color: white;
+}
+.footer0 li{
+     list-style: none;
+     padding:8px;
+}
+.footer0 a{
+    text-decoration: none;
+    color:white;
+    outline: none;
+}
+.footer1{
+    float:left;
+    margin-left:10%;
+    width: 19%
+}
+.footer2{
+    float:left;
+    margin-left:3%;
+    width: 19%
+}
+.footer3{
+    float:left;
+    margin-left:3%;
+    width: 19%;
+}
+
+.footer4{
+    float:left;
+    margin-left:3%;
+    width: 19%;
+}
+.main_contact{
+    float:left;
+    width:90%;
+    margin-left: 30px;
+    color:#cd72d9;
+}
+.main_contact li{
+    list-style: none;
+    font-size: 20px;
+    
+}
+.social{
+    margin-top: 15px;
+    margin-left: 45%;
+    display:inline-block;
+    
+}
+.social a:hover i{
+    font-size: 34px;
+}
+
+.social a{
+    color:white;
+    font-size: 30px;
+}
+.fa{
+    display: inline-block;
+    font-family: FontAwesome.otf;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+}
+.social .fa-yahoo {
+	background-color: white;
+	color: #6889c6;
+	font-size: 26px;
+}
+.social .fa-yahoo:hover{
+    font-size:30px;
+}
+.footnote{
+    background-color:#6889c6;
+    width:100%;
+    height:40px;
+    color:white;
+    text-align: center;
+    padding-top: 20px;
+}
+p{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+
+.bx-wrapper {
+  background: #fff none repeat scroll 0 0;
+  border: 0 none;
+  margin-bottom: 60px;
+  padding: 0;
+  position: relative;
+}
+
+.bx-wrapper .bx-pager { 
+	position: absolute;
+	bottom: 10px; 
+
+}
+
+@media only screen and (min-width: 1170px) {
+    .container{
+        width:1170px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For desktop: */
+    .container{
+        width:100%;
+        margin-left:5px;
+        margin-right:5px;
+    }
+.same_notice{ 
+    float: left;
+    margin-left: 0%;
+    min-height: 320px;
+    padding-top: 25px;
+    width: 100%;
+    }
+}
+.questions{
+    margin-left: 15%;
+    width: 585px;
+    margin-top: 10px; 
+}
+.questions h2{
+    margin:5px;
+    color: cornflowerblue;
+}
+.questions input[type="submit"] { 
+	width: 76%;
+	height: 54px;
+	margin: 15px 0 20px 48px;
+    padding: 0px;
+	border: 0px solid cornflowerblue;
+	background-image: url(images/btn-send.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: blue;
+}
+.questions textarea{
+    margin-left: 50px;
+    box-sizing:border-box;
+    width: 440px;
+    height: 50px;
+}
+.questions input[type="radio"],.questions input[type="checkbox"],.questions select{
+    margin-left: 50px;
+}  
+.faq-body1{
+    float:left;
+    min-height: 400px;
+    margin-top: 60px;
+    margin-bottom:30px;
+    width:65%;
+}
+.faq-body1 p{
+    width:90%;
+}
+textarea,input{
+    margin:8px 0px;
+}
+.faq-body2{
+    float:left;
+    margin-top: 100px;
+    margin-left: 7%;
+    margin-bottom: 30px;
+    color: green;
+    font-size: 20px;
+}
+.faq-body2 h2 {
+  color: #f55;
+}
+.faq-body2 a{
+    text-decoration: none;
+    color: green;
+}
+.faq-body2 li{
+    padding-bottom: 5px;
+    padding-left:10px;
+}
+.faq-body2 a:hover{
+    text-decoration: underline;
+}
